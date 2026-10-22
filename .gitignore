@@ -1,0 +1,8 @@
+/data/
+*.tmp
+/faktura.sh
+/faktura
+__pycache__/
+*.py[cod]
+/.venv/
+/dist/

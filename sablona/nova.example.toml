@@ -1,0 +1,24 @@
+# Při prvním spuštění se vytvoří data/nova.toml – tam nastav své sazby.
+# Zástupné hodnoty – billshit je automaticky doplní při vytvoření faktury.
+cislo = "YYYYMM01"        # rok + měsíc + 01
+vystaveno = 2000-01-01    # poslední den fakturovaného měsíce
+splatnost = 2000-01-01    # poslední den následujícího měsíce
+vydaje = 0
+
+[[polozky]]
+nazev = "Projektové práce - vyšší sazba"
+mnozstvi = 0
+jednotka = "hod."
+cena = 0
+
+[[polozky]]
+nazev = "Interní projekty"
+mnozstvi = 0
+jednotka = "hod."
+cena = 0
+
+[[polozky]]
+nazev = "Zvýšená sazba za práci v zahraničí"
+mnozstvi = 0
+jednotka = "hod."
+cena = 0

@@ -1,0 +1,13 @@
+[project]
+name = "billshit"
+version = "0.1.0"
+description = "Generate Czech invoices from Toggl hours"
+requires-python = ">=3.11"
+dependencies = ["tomlkit>=0.13,<1"]
+
+[project.scripts]
+billshit = "billshit.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.8,<0.13"]
+build-backend = "uv_build"

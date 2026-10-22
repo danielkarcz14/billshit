@@ -1,0 +1,31 @@
+[dodavatel]
+jmeno = "Jméno Příjmení"
+adresa = ["Ulice 1", "100 00 Praha", "Česká republika"]
+ic = "00000000"
+rejstrik = "Fyzická osoba zapsaná v živnostenském rejstříku"
+telefon = "+420 000 000 000"
+email = "jmeno@example.cz"
+banka = "Název banky"
+ucet = "0000000000/0000"
+zpusob_platby = "Bankovním převodem"
+poznamka = "Nejsem plátce DPH"
+
+[odberatel]
+nazev = "DataSentics, a.s."
+adresa = ["Washingtonova 1599/17", "11000 Praha", "Česká republika"]
+ic = "05355541"
+dic = "CZ05355541"
+
+[nastaveni]
+prefix = "prijmeni" # prijmeni-MM-YYYY.pdf
+zaokrouhlit = true
+vydaje_nazev = "Ostatní náklady spojené s poskytováním služeb"
+mena = "Kč"
+
+[toggl]
+workspace = "DataSentics"
+interni_klienti = ["DataSentics Pre-Sales & Edu"]
+polozka_interni = "Interní projekty"
+polozka_projekty = "Projektové práce - vyšší sazba"
+tag_zahranici = "foreign trip (only for SUBCO)"
+polozka_zahranici = "Zvýšená sazba za práci v zahraničí"
