@@ -31,6 +31,8 @@ def parser() -> argparse.ArgumentParser:
         description="Import hours from Toggl and generate a Czech PDF invoice. "
                     "Create a new invoice or update an existing one. Defaults to the current month.",
         epilog="Examples:\n  billshit 10-2026\n  billshit --expenses 1193.26 10-2026\n\n"
+               "Custom item (data/nova.toml or data/faktury/MM-YYYY/faktura.toml):\n"
+               "  [[polozky]]\n  nazev = \"Notebook 1/5\"\n  cena = 4000\n\n"
                "Output: data/faktury/MM-YYYY/ inside the project directory.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
